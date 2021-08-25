@@ -1,1 +1,23 @@
 git init			// initializes the directory as git-repository
+
+git status		
+
+git add [file-name]	//add files to staging area.
+
+git commit -m "Commit Message"
+----------------------------------------------------------------------------
+git log				// shows the commit
+
+$ git log
+	commit e195cf90aac5c7c2552a6b8d9ed61ca927086817 (HEAD -> master)
+	Author: rsnytl <rsnytl@gmail.com>
+	Date:   Wed Aug 25 21:47:18 2021 +0530
+		Chapter 1 completed
+		
+	e195cf90aac5c7c2552a6b8d9ed61ca927086817 ->this is called hash value of the commit.
+----------------------------------------------------------------------------
+
+git add .
+	(Note the dot(.) in above command).
+	This command adds all the file to the staging area at once.
+----------------------------------------------------------------------------
