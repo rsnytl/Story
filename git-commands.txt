@@ -1,0 +1,1 @@
+git init			// initializes the directory as git-repository
